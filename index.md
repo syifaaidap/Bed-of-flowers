@@ -1,37 +1,97 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<title>Crown Of Flowers</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Garamond">
+<style>
+body, html {
+    height: 100%;
+    font-family: 'Cormorant Garamond';font-size: 22px;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("img/b01.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+</style>
+<body>
 
-You can use the [editor on GitHub](https://github.com/syifaaidap/Bed-of-flowers/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">By Syifa Aida Putri Hanindya</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">WELCOME<br>MY DEAR READER</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">This is a blog</span>
+  </div>
+</header>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!-- Add a background color and large text to the whole page -->
+    <style>
+div {
+    background-color: pink;
+}
+</style>
+<div class="w3-sand w3-grayscale w3-large">
 
-### Markdown
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
+    <p> Hello! My name is Syifa Aida Putri Hanindya. Yup, it is already big on the web title. People around me usually call me Aida or Ai (read: ay) for short. I was born in the city named Bogor, March 24, 2002. So this year (2018), I will be 16 years old while my friends will be 17 :). My zodiac sign is Aries. And do not forget to send me gift to my PO Box (just if I have one)</p>
+    <p>I live in the city that I was born in, I always stay here anyways. I live with my parents and four cutiepies of cat. I am a student. I am on my second year in high school and I go to SMK - SMAK Bogor to study (hard).</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"I'm gonna paint the world on a piece of paper. Or memorize it with a photograph. So I could live forever" </i></p>
+      <p>Qoute from Tumblr</p>
+    </div>
+    <div>
+        <center><img src="img/me2.jpg" width="300"></center>
+  </div>
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!-- Hobbies Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">HOBBIES AREA</span></h5>
+      <p>I really like to draw or paint on something. It's really addictive once you sketch on something. Beside drawing, I also like to take some photos. Rarely about myself, but everything around me. World is quite good, isn't it?</p>
+      <p>I really like to do something personal. I like to listen to some music while working with my papers (there's a lot more than you can imagine). We can call it hobbies. I like to stalk too! There are people like Shawn Mendes and Greyson Chance and other handsome people that i like to stalk. 
+        <center><img src="img/skill1.jpg">
+        <center><img src="img/skill2.jpg" width="300"></center>
+    </div>
 
-```markdown
-Syntax highlighted code block
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
+    <p><span class="w3-tag">This is</span>a form to help me develop my website into a better site. Leave your paws here!</p>
+    <p><strong>Offered</strong> a photography result for your instagram too, ask for today's special or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
 
-# Header 1
-## Header 2
-### Header 3
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
 
-- Bulleted
-- List
+<!-- End page content -->
+</div>
 
-1. Numbered
-2. List
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>A page by Syifa Aida Putri Hanindya</p>
+</footer>
 
-**Bold** and _Italic_ and `Code` text
+</body>
+</html>
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/syifaaidap/Bed-of-flowers/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
